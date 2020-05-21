@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body, h2 {
+  background-color: pink;;
+  font-family: arial, helvetica, sans-serif;
+  margin: 0 auto;
+  font-family: 'Courgette', cursive;
+}
+
+.header {
+  border: 2px solid pink;
+}
+
+.header_menu {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.textcolor{
+  color: pink;
+}
+
+.header_menu ul {
+  display: flex;
+}
+.header_menu li {
+  display: inherit;
+}
+.img2{
+  text-align: right;
+}
+.header_menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10 px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header_menu a:hover {
+  background-color: pink;
+  color: black;
+  border-radius: 10px;
+
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+.banner {
+  color: white;
+  background-color:white;
+}
+
+.banner_hero {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.banner_text-hero {
+  padding: 200px 0 0 80px;
+  font-family: monospace;
+  color: black;
+  font-size:50;
+
+}
+.portafolio {
+  display: flex;
+  margin: 200px 0;
+
+}
+.portafolio_box {
+  margin: 15 px;
+  box-shadow: 0px 1px 8px 2px black;
+  border-radius: 10px;
+  width: 100%;
+  width: auto;
+
+}
+.portafolio_box img {
+  border-radius: 10px;
+  width: auto;
+
+}
+.portafolio_card {
+  margin: 20px;
+  padding: 5px;
+  width: auto;
+
+}
+
+.portafolio_card button{
+  background-color:rgb(187, 15, 101);
+  color:white;
+  border:none;
+  padding: 10px;
+  border-radius : 10px;
+  box-shadow: 0px 1px 4px 1px gray;
+  width: 100%;
+
+}
+.tittle{
+  border-left: 6px solid purple;
+  background-color:darkorchid;
+
+}
+.experience_box{
+  margin: 15px;
+  box-shadow: 0px 1px 8px 2px orangered;
+  border-radius: 10px;
+  width: 100%;
+  
+}
+
+.experience_body{
+box-shadow: 0px -10px 10px 2px fuchsia;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+width: 100%;
+
+}
+.footer{
+  color: fuchsia;
+  justify-content: space-between;
+  text-align:center
+  padding 20 px;
+  width: 100%;
+
+}
+.experience {
+  display: flex;
+  margin: 100px 0;
+  width: 100%;
+
+}
+.footer_sections i{
+  padding: 10px;
+  width: 100%;
+
+}
+.copyright p{
+margin-top: 0;
+margin-bottom: 0;
+background-color: brown;
+text-align: center;
+width: 100%;
+}
+.progress {
+  font-size: medium;
+  padding: auto;
+  width: 100%;
+}
